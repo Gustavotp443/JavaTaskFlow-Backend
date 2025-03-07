@@ -9,7 +9,7 @@ public class JavaTaskFlowApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(JavaTaskFlowApplication.class, args);
-		System.out.println("Hello World, tudo certo WTF");
+		System.out.println("Hello World!");
 	}
 
 }
