@@ -1,0 +1,26 @@
+package com.JavaTaskFlow.DTO;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import com.JavaTaskFlow.models.AuthProvider;
+import com.JavaTaskFlow.models.Project;
+import com.JavaTaskFlow.models.Role;
+
+public class userDTO {
+	private String id;
+	private String name;
+	private String email;
+	private String password; 
+	private String profileImageUrl;
+	private AuthProvider authProvider; // Enum (GOOGLE, GITHUB, LOCAL)
+	private String companyId; // Se for funcionário, aponta para conta da empresa
+	private Role role;  // ADMIN (empresa) ou MEMBER (funcionário)
+	private Set<Project> projects = new HashSet<Project>(); 
+
+	public UserDTO() {}
+	
+	public UserDTO(User obj) {
+		
+	}
+}

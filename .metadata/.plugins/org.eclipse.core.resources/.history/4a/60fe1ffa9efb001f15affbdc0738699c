@@ -1,0 +1,33 @@
+package com.JavaTaskFlow.DTO;
+
+import java.time.Instant;
+import java.util.HashSet;
+import java.util.Set;
+
+import org.springframework.data.annotation.LastModifiedDate;
+
+import com.JavaTaskFlow.models.AuthProvider;
+import com.JavaTaskFlow.models.Project;
+import com.JavaTaskFlow.models.Role;
+import com.JavaTaskFlow.models.User;
+
+public class UserDTO {
+	private String id;
+	private String name;
+	private String email;
+	private String password; 
+	private String profileImageUrl;
+	private AuthProvider authProvider; 
+	private String companyId; 
+	private Role role;  
+	private Set<Project> projects = new HashSet<Project>(); 
+	private Instant createdAt;
+    private Instant updatedAt;
+    
+	public UserDTO(){}
+	
+	public UserDTO(User obj) {
+		id = obj.getId();
+		name = obj.getName();
+	}
+}

@@ -1,12 +1,15 @@
 package com.JavaTaskFlow.models;
 
 import java.io.Serializable;
+import java.time.Instant;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Objects;
 import java.util.Set;
 
+import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.Id;
+import org.springframework.data.annotation.LastModifiedDate;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document(collection="user")
@@ -24,21 +27,29 @@ public class User implements Serializable {
 	private Role role;  // ADMIN (empresa) ou MEMBER (funcionário)
 	private Set<Project> projects = new HashSet<Project>();  // IDs dos projetos que pode acessar
 	
+	@CreatedDate
+    private Instant createdAt;
+
+    @LastModifiedDate
+    private Instant updatedAt;
+	
 	public User() {
 	}
 	
-    public User(String id, String name, String email, String profileImageUrl, AuthProvider authProvider,
+	public User(String id, String name, String email, String profileImageUrl, AuthProvider authProvider,
             String companyId, Role role, String password) {
-    super();
-    this.id = id;
-    this.name = name;
-    this.email = email;
-    this.profileImageUrl = profileImageUrl;
-    this.authProvider = authProvider;
-    this.companyId = companyId;
-    this.role = role;
-    this.password = password;
-}
+        super();
+        this.id = id;
+        this.name = name;
+        this.email = email;
+        this.profileImageUrl = profileImageUrl;
+        this.authProvider = authProvider;
+        this.companyId = companyId;
+        this.role = role;
+        this.password = password;
+        this.createdAt = Instant.now();
+        this.updatedAt = Instant.now();
+    }
 
 	public String getId() {
 		return id;
@@ -104,6 +115,27 @@ public class User implements Serializable {
 	public void setRole(Role role) {
 		this.role = role;
 	}
+	
+
+    public Instant getCreatedAt() {
+        return createdAt;
+    }
+
+    public Instant getUpdatedAt() {
+        return updatedAt;
+    }
+
+    public void setUpdatedAt(Instant updatedAt) {
+        this.updatedAt = updatedAt;
+    }
+
+    public Set<Project> getProjects() {
+        return projects;
+    }
+
+    public void addProject(Project project) {
+    	this.projects.add(project);
+    }
 
 
 	@Override
