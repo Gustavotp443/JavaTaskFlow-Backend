@@ -36,10 +36,9 @@ public class User implements Serializable {
 	public User() {
 	}
 	
-	public User(String id, String name, String email, String profileImageUrl, AuthProvider authProvider,
+	public User(String name, String email, String profileImageUrl, AuthProvider authProvider,
             String companyId, Role role, String password) {
         super();
-        this.id = id;
         this.name = name;
         this.email = email;
         this.profileImageUrl = profileImageUrl;
@@ -53,10 +52,6 @@ public class User implements Serializable {
 
 	public String getId() {
 		return id;
-	}
-
-	public void setId(String id) {
-		this.id = id;
 	}
 
 	public String getName() {

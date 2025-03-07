@@ -1,0 +1,18 @@
+package com.JavaTaskFlow.controllers.exception;
+
+import javax.net.ssl.SSLEngineResult.Status;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.ControllerAdvice;
+
+import com.JavaTaskFlow.services.exception.ObjectNotFoundException;
+
+import jakarta.servlet.http.HttpServletRequest;
+
+@ControllerAdvice
+public class ControllerExceptionHandler {
+
+	public ResponseEntity<StandardError> objectNotFound(ObjectNotFoundException e, HttpServletRequest request){
+		StandardError err = new StandardError(System.currentTimeMillis(), status.value())
+	}
+}

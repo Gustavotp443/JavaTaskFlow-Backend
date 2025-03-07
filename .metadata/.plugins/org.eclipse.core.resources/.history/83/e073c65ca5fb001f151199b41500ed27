@@ -1,0 +1,5 @@
+package com.JavaTaskFlow.services.exception;
+
+public class ObjectNotFoundException {
+
+}
