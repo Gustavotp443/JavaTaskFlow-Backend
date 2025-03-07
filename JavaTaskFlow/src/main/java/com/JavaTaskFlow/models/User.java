@@ -1,0 +1,114 @@
+package com.JavaTaskFlow.models;
+
+import java.io.Serializable;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Objects;
+import java.util.Set;
+
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document(collection="user")
+public class User implements Serializable {
+	private static final long serialVersionUID = 1L;
+	
+	@Id
+	private String id;
+	private String name;
+	private String email;
+	private String profileImageUrl;
+	private AuthProvider authProvider; // Enum (GOOGLE, GITHUB, LOCAL)
+	private String companyId; // Se for funcionário, aponta para conta da empresa
+	private Role role;  // ADMIN (empresa) ou MEMBER (funcionário)
+	private Set<Project> projects = new HashSet<Project>();  // IDs dos projetos que pode acessar
+	
+	public User() {
+	}
+	
+	public User(String id, String name, String email, String profileImageUrl, AuthProvider authProvider,
+			String companyId, Role role) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.email = email;
+		this.profileImageUrl = profileImageUrl;
+		this.authProvider = authProvider;
+		this.companyId = companyId;
+		this.role = role;
+	}
+
+	public String getId() {
+		return id;
+	}
+
+	public void setId(String id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public String getProfileImageUrl() {
+		return profileImageUrl;
+	}
+
+	public void setProfileImageUrl(String profileImageUrl) {
+		this.profileImageUrl = profileImageUrl;
+	}
+
+	public AuthProvider getAuthProvider() {
+		return authProvider;
+	}
+
+	public void setAuthProvider(AuthProvider authProvider) {
+		this.authProvider = authProvider;
+	}
+
+	public String getCompanyId() {
+		return companyId;
+	}
+
+	public void setCompanyId(String companyId) {
+		this.companyId = companyId;
+	}
+
+	public Role getRole() {
+		return role;
+	}
+
+	public void setRole(Role role) {
+		this.role = role;
+	}
+
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(id);
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		User other = (User) obj;
+		return Objects.equals(id, other.id);
+	}
+}
