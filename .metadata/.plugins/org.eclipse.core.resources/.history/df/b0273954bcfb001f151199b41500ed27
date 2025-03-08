@@ -1,0 +1,4 @@
+spring.application.name=JavaTaskFlow
+spring.profiles.active=dev
+spring.cache.type=none
+server.port=8081

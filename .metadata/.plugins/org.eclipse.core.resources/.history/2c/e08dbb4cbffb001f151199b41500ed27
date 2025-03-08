@@ -1,0 +1,4 @@
+# Configurações específicas para o perfil dev
+spring.security.user.name=admin
+spring.security.user.password=admin
+spring.data.mongodb.uri=mongodb://localhost:27017/JavaTaskFlow

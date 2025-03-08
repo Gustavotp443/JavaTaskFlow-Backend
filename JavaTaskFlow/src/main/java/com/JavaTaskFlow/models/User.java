@@ -11,6 +11,9 @@ import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.annotation.LastModifiedDate;
 import org.springframework.data.mongodb.core.mapping.Document;
+import org.springframework.security.crypto.password.PasswordEncoder;
+
+import com.JavaTaskFlow.DTO.LoginRequest;
 
 @Document(collection="user")
 public class User implements Serializable {
@@ -156,6 +159,10 @@ public class User implements Serializable {
 			return false;
 		User other = (User) obj;
 		return Objects.equals(id, other.id);
+	}
+
+	public boolean isLoginCorrect(LoginRequest loginRequest, PasswordEncoder passwordEncoder) {
+		return passwordEncoder.matches(loginRequest.password(), this.password);
 	}
 
 

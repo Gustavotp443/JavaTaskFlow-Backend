@@ -1,0 +1,57 @@
+package com.JavaTaskFlow.DTO;
+
+import java.io.Serializable;
+import java.time.Instant;
+import java.util.HashSet;
+import java.util.Set;
+
+import com.JavaTaskFlow.models.AuthProvider;
+import com.JavaTaskFlow.models.Project;
+import com.JavaTaskFlow.models.Role;
+import com.JavaTaskFlow.models.User;
+
+public record UserDTO(
+    String id,
+    String name,
+    String email,
+    String password,
+    String profileImageUrl,
+    AuthProvider authProvider,
+    String companyId,
+    Role role,
+    Set<Project> projects,
+    Instant createdAt,
+    Instant updatedAt
+) implements Serializable {
+
+    private static final long serialVersionUID = 1L;
+
+    // O construtor já é gerado automaticamente, mas você pode criar um construtor customizado se necessário.
+    public UserDTO(User obj) {
+        this(
+            obj.getId(),
+            obj.getName(),
+            obj.getEmail(),
+            obj.getPassword(),
+            obj.getProfileImageUrl(),
+            obj.getAuthProvider(),
+            obj.getCompanyId(),
+            obj.getRole(),
+            obj.getProjects() == null ? new HashSet<>() : new HashSet<>(obj.getProjects()), // Evitar null em Set
+            obj.getCreatedAt(),
+            obj.getUpdatedAt()
+        );
+    }
+
+    public User fromDTO(UserDTO objDto) {
+        return new User(
+            objDto.name(),
+            objDto.email(),
+            objDto.profileImageUrl(),
+            objDto.authProvider(),
+            objDto.companyId(),
+            objDto.role(),
+            objDto.password()
+        );
+    }
+}

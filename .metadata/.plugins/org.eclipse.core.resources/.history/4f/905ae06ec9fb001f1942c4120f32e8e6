@@ -1,0 +1,23 @@
+package com.JavaTaskFlow.repositories;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+import com.JavaTaskFlow.models.User;
+
+//class,Id type
+public interface UserRepository extends MongoRepository<User, String>{
+Optional<User> findByEmail(String email);
+    
+    List<User> findAll();
+    
+    Optional<User> findById(String id);
+    
+    User insert(User obj);
+    
+    void deleteById(String id);
+    
+    User save(User obj);
+}

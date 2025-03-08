@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 
 import com.JavaTaskFlow.models.User;
 import com.JavaTaskFlow.repositories.UserRepository;
+import com.JavaTaskFlow.services.exception.BadCredentialsException;
 import com.JavaTaskFlow.services.exception.ObjectNotFoundException;
 
 @Service
@@ -36,14 +37,11 @@ public class UserService {
 	}
 	
 	public User update(User obj) {
-		Optional<User> newObj = repository.findById(obj.getId());
-		if(newObj.isPresent()) {
-			updateData(newObj.get(),obj);
-			return repository.save(newObj.get());
-		} else {
-			throw new ObjectNotFoundException("Objeto não encontrado");
-		}
-		
+	    User existingUser = repository.findById(obj.getId())
+	        .orElseThrow(() -> new ObjectNotFoundException("Objeto não encontrado"));
+
+	    updateData(existingUser, obj);
+	    return repository.save(existingUser);
 	}
 
 	private void updateData(User newObj, User obj) {
@@ -55,5 +53,13 @@ public class UserService {
 	    newObj.setCompanyId(obj.getCompanyId());
 	    newObj.setRole(obj.getRole());
 	    newObj.setUpdatedAt(Instant.now());
+	}
+
+	public User findByEmail(String email) {
+		Optional<User> emailTest = repository.findByEmail(email);
+		System.out.println(emailTest.get().getEmail());
+		
+		return repository.findByEmail(email)
+				.orElseThrow(() -> new BadCredentialsException("usuário ou senha é invalido!"));
 	}
 }

@@ -1,0 +1,13 @@
+jwt.public.key=classpath:app.pub
+jwt.private.key=classpath:app.key
+
+
+# Configuração comum para todos os perfis
+spring.application.name=JavaTaskFlow
+spring.cache.type=none
+server.port=8081
+
+# Ativando o perfil dev
+spring.profiles.active=dev
+
+#NEPTUNE

@@ -1,0 +1,7 @@
+# Configuração comum para todos os perfis
+spring.application.name=JavaTaskFlow
+spring.cache.type=none
+
+
+# Ativando o perfil dev
+spring.profiles.active=dev

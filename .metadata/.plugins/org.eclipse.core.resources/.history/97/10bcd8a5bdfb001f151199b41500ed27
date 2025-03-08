@@ -1,0 +1,17 @@
+package com.JavaTaskFlow;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+
+@SpringBootApplication
+public class JavaTaskFlowApplication {
+
+	public static void main(String[] args) {
+		  SpringApplication app = new SpringApplication(JavaTaskFlowApplication.class);
+	    app.setAdditionalProfiles("dev");  // Alternativa para definir o perfil
+	    app.run(args);
+	    System.out.println("Hello World!");
+	}
+
+}

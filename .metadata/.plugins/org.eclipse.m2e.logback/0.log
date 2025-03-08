@@ -1244,3 +1244,452 @@
 2025-03-07 22:11:43,613 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
 2025-03-07 22:12:09,579 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
 2025-03-07 22:12:09,587 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-07 22:12:09,589 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 22:24:20,770 [Worker-49: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.JavaTaskFlow:JavaTaskFlow:0.0.1-SNAPSHOT @ C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\pom.xml.
+2025-03-07 22:24:22,937 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-07 22:24:22,937 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-07 22:24:22,940 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 22:24:24,802 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 22:24:24,817 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-07 22:24:24,833 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 22:24:25,322 [Worker-51: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-03-07 22:24:26,495 [Worker-51: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.JavaTaskFlow:JavaTaskFlow:0.0.1-SNAPSHOT @ C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\pom.xml.
+2025-03-07 22:24:30,955 [Worker-51: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /JavaTaskFlow/src/main/java
+2025-03-07 22:24:30,956 [Worker-51: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /JavaTaskFlow/src/main/resources
+2025-03-07 22:24:30,956 [Worker-51: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /JavaTaskFlow/src/main/resources
+2025-03-07 22:24:30,956 [Worker-51: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /JavaTaskFlow/src/test/java
+2025-03-07 22:24:30,957 [Worker-51: Updating Maven Project] ERROR o.e.m.j.i.AbstractJavaProjectConfigurator - Failed to find a compatible VM for environment id 'JavaSE-19', falling back to workspace default
+2025-03-07 22:24:31,448 [Worker-51: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 4,00 sec, update config takes 0,00 sec 
+2025-03-07 22:27:48,630 [Worker-53: Launching Executing clean in C__Users_gusta_Desktop_JavaTaskFlow_server_JavaTaskFlow] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149 [345])
+2025-03-07 22:27:48,634 [Worker-53: Launching Executing clean in C__Users_gusta_Desktop_JavaTaskFlow_server_JavaTaskFlow] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gusta\Downloads\sts-4.17.2.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149
+2025-03-07 22:27:48,635 [Worker-53: Launching Executing clean in C__Users_gusta_Desktop_JavaTaskFlow_server_JavaTaskFlow] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gusta\Downloads\sts-4.17.2.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\aether-connector-okhttp-0.17.8.jar
+2025-03-07 22:27:48,635 [Worker-53: Launching Executing clean in C__Users_gusta_Desktop_JavaTaskFlow_server_JavaTaskFlow] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gusta\Downloads\sts-4.17.2.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-cli-1.4.jar
+2025-03-07 22:27:48,635 [Worker-53: Launching Executing clean in C__Users_gusta_Desktop_JavaTaskFlow_server_JavaTaskFlow] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gusta\Downloads\sts-4.17.2.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-io-2.6.jar
+2025-03-07 22:27:48,635 [Worker-53: Launching Executing clean in C__Users_gusta_Desktop_JavaTaskFlow_server_JavaTaskFlow] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gusta\Downloads\sts-4.17.2.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-lang3-3.8.1.jar
+2025-03-07 22:27:48,635 [Worker-53: Launching Executing clean in C__Users_gusta_Desktop_JavaTaskFlow_server_JavaTaskFlow] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gusta\Downloads\sts-4.17.2.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\guice-4.2.2-no_aop.jar
+2025-03-07 22:27:48,636 [Worker-53: Launching Executing clean in C__Users_gusta_Desktop_JavaTaskFlow_server_JavaTaskFlow] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gusta\Downloads\sts-4.17.2.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\jansi-2.4.0.jar
+2025-03-07 22:27:48,636 [Worker-53: Launching Executing clean in C__Users_gusta_Desktop_JavaTaskFlow_server_JavaTaskFlow] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gusta\Downloads\sts-4.17.2.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-artifact-3.8.6.jar
+2025-03-07 22:27:48,636 [Worker-53: Launching Executing clean in C__Users_gusta_Desktop_JavaTaskFlow_server_JavaTaskFlow] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gusta\Downloads\sts-4.17.2.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-builder-support-3.8.6.jar
+2025-03-07 22:27:48,636 [Worker-53: Launching Executing clean in C__Users_gusta_Desktop_JavaTaskFlow_server_JavaTaskFlow] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gusta\Downloads\sts-4.17.2.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-compat-3.8.6.jar
+2025-03-07 22:27:48,636 [Worker-53: Launching Executing clean in C__Users_gusta_Desktop_JavaTaskFlow_server_JavaTaskFlow] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gusta\Downloads\sts-4.17.2.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-core-3.8.6.jar
+2025-03-07 22:27:48,636 [Worker-53: Launching Executing clean in C__Users_gusta_Desktop_JavaTaskFlow_server_JavaTaskFlow] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gusta\Downloads\sts-4.17.2.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-embedder-3.8.6.jar
+2025-03-07 22:27:48,637 [Worker-53: Launching Executing clean in C__Users_gusta_Desktop_JavaTaskFlow_server_JavaTaskFlow] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gusta\Downloads\sts-4.17.2.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-model-3.8.6.jar
+2025-03-07 22:27:48,637 [Worker-53: Launching Executing clean in C__Users_gusta_Desktop_JavaTaskFlow_server_JavaTaskFlow] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gusta\Downloads\sts-4.17.2.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-model-builder-3.8.6.jar
+2025-03-07 22:27:48,637 [Worker-53: Launching Executing clean in C__Users_gusta_Desktop_JavaTaskFlow_server_JavaTaskFlow] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gusta\Downloads\sts-4.17.2.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-plugin-api-3.8.6.jar
+2025-03-07 22:27:48,637 [Worker-53: Launching Executing clean in C__Users_gusta_Desktop_JavaTaskFlow_server_JavaTaskFlow] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gusta\Downloads\sts-4.17.2.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-repository-metadata-3.8.6.jar
+2025-03-07 22:27:48,638 [Worker-53: Launching Executing clean in C__Users_gusta_Desktop_JavaTaskFlow_server_JavaTaskFlow] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gusta\Downloads\sts-4.17.2.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-api-1.6.3.jar
+2025-03-07 22:27:48,638 [Worker-53: Launching Executing clean in C__Users_gusta_Desktop_JavaTaskFlow_server_JavaTaskFlow] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gusta\Downloads\sts-4.17.2.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-connector-basic-1.6.3.jar
+2025-03-07 22:27:48,638 [Worker-53: Launching Executing clean in C__Users_gusta_Desktop_JavaTaskFlow_server_JavaTaskFlow] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gusta\Downloads\sts-4.17.2.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-impl-1.6.3.jar
+2025-03-07 22:27:48,638 [Worker-53: Launching Executing clean in C__Users_gusta_Desktop_JavaTaskFlow_server_JavaTaskFlow] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gusta\Downloads\sts-4.17.2.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-provider-3.8.6.jar
+2025-03-07 22:27:48,638 [Worker-53: Launching Executing clean in C__Users_gusta_Desktop_JavaTaskFlow_server_JavaTaskFlow] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gusta\Downloads\sts-4.17.2.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-spi-1.6.3.jar
+2025-03-07 22:27:48,639 [Worker-53: Launching Executing clean in C__Users_gusta_Desktop_JavaTaskFlow_server_JavaTaskFlow] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gusta\Downloads\sts-4.17.2.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-transport-wagon-1.6.3.jar
+2025-03-07 22:27:48,639 [Worker-53: Launching Executing clean in C__Users_gusta_Desktop_JavaTaskFlow_server_JavaTaskFlow] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gusta\Downloads\sts-4.17.2.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-util-1.6.3.jar
+2025-03-07 22:27:48,639 [Worker-53: Launching Executing clean in C__Users_gusta_Desktop_JavaTaskFlow_server_JavaTaskFlow] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gusta\Downloads\sts-4.17.2.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-settings-3.8.6.jar
+2025-03-07 22:27:48,639 [Worker-53: Launching Executing clean in C__Users_gusta_Desktop_JavaTaskFlow_server_JavaTaskFlow] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gusta\Downloads\sts-4.17.2.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-settings-builder-3.8.6.jar
+2025-03-07 22:27:48,639 [Worker-53: Launching Executing clean in C__Users_gusta_Desktop_JavaTaskFlow_server_JavaTaskFlow] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gusta\Downloads\sts-4.17.2.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-shared-utils-3.3.4.jar
+2025-03-07 22:27:48,639 [Worker-53: Launching Executing clean in C__Users_gusta_Desktop_JavaTaskFlow_server_JavaTaskFlow] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gusta\Downloads\sts-4.17.2.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\okhttp-3.14.1.jar
+2025-03-07 22:27:48,639 [Worker-53: Launching Executing clean in C__Users_gusta_Desktop_JavaTaskFlow_server_JavaTaskFlow] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gusta\Downloads\sts-4.17.2.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\okio-1.17.3.jar
+2025-03-07 22:27:48,640 [Worker-53: Launching Executing clean in C__Users_gusta_Desktop_JavaTaskFlow_server_JavaTaskFlow] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gusta\Downloads\sts-4.17.2.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\org.eclipse.sisu.inject-0.3.5.jar
+2025-03-07 22:27:48,640 [Worker-53: Launching Executing clean in C__Users_gusta_Desktop_JavaTaskFlow_server_JavaTaskFlow] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gusta\Downloads\sts-4.17.2.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\org.eclipse.sisu.plexus-0.3.5.jar
+2025-03-07 22:27:48,640 [Worker-53: Launching Executing clean in C__Users_gusta_Desktop_JavaTaskFlow_server_JavaTaskFlow] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gusta\Downloads\sts-4.17.2.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-build-api-0.0.7.jar
+2025-03-07 22:27:48,640 [Worker-53: Launching Executing clean in C__Users_gusta_Desktop_JavaTaskFlow_server_JavaTaskFlow] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gusta\Downloads\sts-4.17.2.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-cipher-2.0.jar
+2025-03-07 22:27:48,640 [Worker-53: Launching Executing clean in C__Users_gusta_Desktop_JavaTaskFlow_server_JavaTaskFlow] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gusta\Downloads\sts-4.17.2.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-classworlds-2.6.0.jar
+2025-03-07 22:27:48,641 [Worker-53: Launching Executing clean in C__Users_gusta_Desktop_JavaTaskFlow_server_JavaTaskFlow] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gusta\Downloads\sts-4.17.2.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-component-annotations-2.1.0.jar
+2025-03-07 22:27:48,641 [Worker-53: Launching Executing clean in C__Users_gusta_Desktop_JavaTaskFlow_server_JavaTaskFlow] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gusta\Downloads\sts-4.17.2.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-interpolation-1.26.jar
+2025-03-07 22:27:48,641 [Worker-53: Launching Executing clean in C__Users_gusta_Desktop_JavaTaskFlow_server_JavaTaskFlow] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gusta\Downloads\sts-4.17.2.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-sec-dispatcher-2.0.jar
+2025-03-07 22:27:48,641 [Worker-53: Launching Executing clean in C__Users_gusta_Desktop_JavaTaskFlow_server_JavaTaskFlow] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gusta\Downloads\sts-4.17.2.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-utils-3.3.1.jar
+2025-03-07 22:27:48,641 [Worker-53: Launching Executing clean in C__Users_gusta_Desktop_JavaTaskFlow_server_JavaTaskFlow] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gusta\Downloads\sts-4.17.2.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\wagon-file-3.5.1.jar
+2025-03-07 22:27:48,641 [Worker-53: Launching Executing clean in C__Users_gusta_Desktop_JavaTaskFlow_server_JavaTaskFlow] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gusta\Downloads\sts-4.17.2.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\wagon-provider-api-3.5.1.jar
+2025-03-07 22:27:48,642 [Worker-53: Launching Executing clean in C__Users_gusta_Desktop_JavaTaskFlow_server_JavaTaskFlow] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_30.1.0.v20221112-0806 [22])
+2025-03-07 22:27:48,644 [Worker-53: Launching Executing clean in C__Users_gusta_Desktop_JavaTaskFlow_server_JavaTaskFlow] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gusta\Downloads\sts-4.17.2.RELEASE\plugins\com.google.guava_30.1.0.v20221112-0806.jar
+2025-03-07 22:27:48,644 [Worker-53: Launching Executing clean in C__Users_gusta_Desktop_JavaTaskFlow_server_JavaTaskFlow] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_1.7.36 [584])
+2025-03-07 22:27:48,644 [Worker-53: Launching Executing clean in C__Users_gusta_Desktop_JavaTaskFlow_server_JavaTaskFlow] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gusta\Downloads\sts-4.17.2.RELEASE\plugins\slf4j.api_1.7.36.jar
+2025-03-07 22:27:48,644 [Worker-53: Launching Executing clean in C__Users_gusta_Desktop_JavaTaskFlow_server_JavaTaskFlow] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.inject_1.0.0.v20220405-0441 [49])
+2025-03-07 22:27:48,644 [Worker-53: Launching Executing clean in C__Users_gusta_Desktop_JavaTaskFlow_server_JavaTaskFlow] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gusta\Downloads\sts-4.17.2.RELEASE\plugins\javax.inject_1.0.0.v20220405-0441.jar
+2025-03-07 22:27:48,644 [Worker-53: Launching Executing clean in C__Users_gusta_Desktop_JavaTaskFlow_server_JavaTaskFlow] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20221112-0806 [47])
+2025-03-07 22:27:48,647 [Worker-53: Launching Executing clean in C__Users_gusta_Desktop_JavaTaskFlow_server_JavaTaskFlow] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\gusta\Downloads\sts-4.17.2.RELEASE\plugins\javax.annotation_1.3.5.v20221112-0806.jar
+2025-03-07 22:27:48,649 [Worker-53: Launching Executing clean in C__Users_gusta_Desktop_JavaTaskFlow_server_JavaTaskFlow] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow":
+2025-03-07 22:27:48,650 [Worker-53: Launching Executing clean in C__Users_gusta_Desktop_JavaTaskFlow_server_JavaTaskFlow] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always clean
+2025-03-07 22:28:04,388 [Worker-52: Launching Executing clean in C__Users_gusta_Desktop_JavaTaskFlow_server_JavaTaskFlow] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow":
+2025-03-07 22:28:04,388 [Worker-52: Launching Executing clean in C__Users_gusta_Desktop_JavaTaskFlow_server_JavaTaskFlow] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always clean
+2025-03-07 22:44:27,054 [Worker-68: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.JavaTaskFlow:JavaTaskFlow:0.0.1-SNAPSHOT @ C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\pom.xml.
+2025-03-07 22:44:27,527 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-07 22:44:27,527 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-07 22:44:27,532 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 22:44:28,862 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 22:44:28,875 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 22:44:38,265 [Worker-70: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.JavaTaskFlow:JavaTaskFlow:0.0.1-SNAPSHOT @ C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\pom.xml.
+2025-03-07 22:44:38,667 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-07 22:44:38,667 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-07 22:44:38,673 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 22:44:39,996 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 22:44:40,009 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 22:44:51,752 [Worker-67: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.JavaTaskFlow:JavaTaskFlow:0.0.1-SNAPSHOT @ C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\pom.xml.
+2025-03-07 22:44:52,155 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-07 22:44:52,155 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-07 22:44:52,157 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 22:44:53,667 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 22:44:53,678 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 22:44:59,412 [Worker-56: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.JavaTaskFlow:JavaTaskFlow:0.0.1-SNAPSHOT @ C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\pom.xml.
+2025-03-07 22:44:59,780 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-07 22:44:59,781 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-07 22:44:59,783 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 22:45:01,257 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 22:45:01,270 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 22:46:20,293 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-07 22:46:20,294 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-07 22:46:20,295 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 22:46:28,549 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-07 22:46:28,549 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-07 22:46:28,551 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 22:46:29,560 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-07 22:46:29,560 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-07 22:46:29,562 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 22:47:28,333 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-07 22:47:28,335 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 22:47:31,824 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-07 22:47:31,836 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 22:47:40,832 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-07 22:47:40,837 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 22:47:42,896 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-03-07 22:47:42,901 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 22:49:27,859 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-07 22:49:27,859 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-07 22:49:27,861 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 22:49:40,467 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-07 22:49:40,468 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-07 22:49:40,469 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 22:49:49,541 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-07 22:49:49,542 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-07 22:49:49,543 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 22:50:24,423 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-07 22:50:24,423 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-07 22:50:24,424 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 22:50:57,044 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-07 22:50:57,044 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-07 22:50:57,045 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 22:50:59,057 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-07 22:50:59,057 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-07 22:50:59,058 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 22:51:00,109 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-07 22:51:00,109 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-07 22:51:00,111 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 22:51:29,598 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-07 22:51:29,598 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-07 22:51:29,599 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 22:51:36,067 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-07 22:51:36,067 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-07 22:51:36,068 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 22:52:02,380 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-07 22:52:02,380 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-07 22:52:02,381 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 22:52:09,656 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-07 22:52:09,657 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-07 22:52:09,658 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 22:53:04,303 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-07 22:53:04,303 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-07 22:53:04,304 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 22:53:24,920 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-07 22:53:24,920 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-07 22:53:24,921 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 22:53:49,630 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-07 22:53:49,630 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-07 22:53:49,631 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 22:53:56,768 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-07 22:53:56,768 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-07 22:53:56,769 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 22:55:21,600 [Worker-64: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.JavaTaskFlow:JavaTaskFlow:0.0.1-SNAPSHOT @ C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\pom.xml.
+2025-03-07 22:55:22,059 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-07 22:55:22,060 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-07 22:55:22,062 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 22:55:38,065 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-07 22:55:38,066 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-07 22:55:38,067 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 22:58:16,798 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-07 22:58:16,798 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-03-07 22:58:16,799 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 22:59:44,881 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-03-07 23:08:13,277 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:08:13,316 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:10:36,330 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:10:36,336 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:10:48,820 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:10:48,959 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:11:11,390 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:11:11,396 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:11:14,764 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:11:14,770 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:13:13,831 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:13:13,841 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:13:21,218 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:13:21,224 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:13:39,793 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:13:39,800 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:13:49,200 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:13:49,206 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:14:22,796 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:14:22,803 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:15:07,669 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:15:07,676 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:15:59,451 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:15:59,457 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:16:10,064 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:16:10,070 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:16:35,367 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:16:35,373 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:18:37,788 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:18:37,795 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:18:41,547 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:18:41,554 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:18:53,695 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:18:53,701 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:19:36,498 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:19:36,504 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:20:04,728 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:20:04,735 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:20:18,481 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:20:18,493 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:20:30,027 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:20:30,032 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:28:29,544 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:28:29,554 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:29:10,967 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:29:10,972 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:31:19,954 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:31:19,959 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:33:13,652 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:33:13,657 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:34:05,746 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:34:05,753 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:40:06,719 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:40:06,725 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:40:31,016 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:40:31,021 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:40:55,077 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:40:55,083 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:41:38,221 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:41:38,227 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:42:11,484 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:42:11,490 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:42:36,289 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:42:36,297 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:43:01,183 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:43:01,188 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:43:05,429 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:43:05,435 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:43:13,843 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:43:13,851 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:43:39,013 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:43:39,020 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:44:04,873 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:44:04,878 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:44:33,201 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:44:33,207 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:45:35,102 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:45:35,109 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:47:46,615 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:47:46,620 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:48:01,678 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:48:01,684 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:50:21,318 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:50:21,324 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:50:56,111 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:50:56,117 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:51:08,983 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:51:08,988 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:51:12,115 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:51:12,121 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:51:43,672 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:51:43,677 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:52:06,806 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:52:06,812 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:52:53,695 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:52:53,700 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:53:50,641 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:53:50,647 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:54:05,323 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:54:05,328 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:55:25,426 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:55:25,431 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:55:36,789 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:55:36,794 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:55:57,107 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:55:57,113 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:56:09,112 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:56:09,117 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:56:27,310 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:56:27,315 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:59:02,233 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:59:02,239 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:59:05,453 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:59:05,458 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:59:30,095 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:59:30,101 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-07 23:59:33,465 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-07 23:59:33,469 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 00:00:04,050 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 00:00:04,055 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 00:00:08,674 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 00:00:08,679 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 00:00:12,157 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 00:00:12,162 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 00:01:07,079 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 00:01:07,084 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 00:01:28,895 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 00:01:28,901 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 00:02:22,403 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 00:02:22,407 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 00:05:29,404 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 00:05:29,409 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 00:06:19,481 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 00:06:19,486 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 00:08:03,308 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 00:08:03,314 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 00:08:08,255 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 00:08:08,260 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 00:09:05,528 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 00:09:05,533 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 00:09:18,859 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 00:09:18,865 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 00:11:20,192 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 00:11:20,197 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 00:12:37,546 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 00:12:37,551 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 00:12:52,531 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 00:12:52,537 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 00:14:31,842 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 00:14:31,847 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 00:14:38,192 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 00:14:38,198 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 00:14:42,004 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 00:14:42,027 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 00:15:15,576 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 00:15:15,580 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 00:15:35,187 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 00:15:35,193 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 00:16:40,182 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 00:16:40,187 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 00:16:45,588 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 00:16:45,596 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 00:45:09,647 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 00:45:09,651 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 00:46:32,812 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 00:46:32,819 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 00:46:39,127 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 00:46:39,132 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 00:47:51,395 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 00:47:51,401 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 00:48:02,398 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 00:48:02,407 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 00:48:26,809 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 00:48:26,814 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 00:48:30,946 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 00:48:30,952 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 00:48:46,402 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 00:48:46,407 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 00:49:19,289 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 00:49:19,295 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 00:49:25,311 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 00:49:25,317 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 00:49:46,188 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 00:49:46,194 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 00:52:20,465 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 00:52:20,470 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 00:53:01,457 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 00:53:01,462 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 00:53:21,115 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 00:53:21,120 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 00:53:58,159 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 00:53:58,165 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 00:54:18,046 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 00:54:18,051 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 00:54:45,424 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 00:54:45,430 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 00:55:23,873 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 00:55:23,879 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 00:55:55,877 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 00:55:55,882 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 00:58:18,941 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 00:58:18,946 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 00:58:49,613 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 00:58:49,618 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 01:01:30,586 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 01:01:30,593 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 01:01:57,348 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 01:01:57,354 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 01:02:37,139 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 01:02:37,145 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 01:03:28,795 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 01:03:28,800 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 01:03:35,195 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 01:03:35,201 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 01:05:07,782 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 01:05:07,786 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 01:05:20,730 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 01:05:20,735 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 01:05:31,197 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 01:05:31,203 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 01:07:12,211 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 01:07:12,216 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 01:08:14,782 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 01:08:14,787 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 01:08:22,859 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 01:08:22,864 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 01:09:00,805 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 01:09:00,810 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 01:10:13,767 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 01:10:13,772 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 01:10:23,061 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 01:10:23,068 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 01:10:30,549 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 01:10:30,554 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 01:11:25,249 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 01:11:25,255 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 01:11:30,134 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 01:11:30,138 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 01:11:38,006 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 01:11:38,013 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 01:14:19,143 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 01:14:19,148 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 01:14:24,799 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 01:14:24,804 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 01:19:20,231 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 01:19:20,237 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 01:19:25,497 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 01:19:25,502 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 01:19:27,824 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 01:19:27,830 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 01:19:58,932 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 01:19:58,937 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 01:20:04,712 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 01:20:04,718 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 01:24:43,480 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 01:24:43,487 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 01:25:02,823 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 01:25:02,829 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 01:25:10,768 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 01:25:10,774 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 01:27:20,270 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 01:27:20,276 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 01:27:30,782 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 01:27:30,787 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 01:27:38,203 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 01:27:38,208 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 01:27:45,157 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 01:27:45,162 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 01:28:21,592 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 01:28:21,597 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 01:28:31,638 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 01:28:31,644 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 01:30:39,646 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 01:30:39,651 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 01:30:45,553 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 01:30:45,562 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 01:31:13,311 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 01:31:13,316 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 01:31:18,724 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 01:31:18,730 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 01:35:16,931 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 01:35:16,937 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
+2025-03-08 01:35:21,311 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-03-08 01:35:21,315 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\gusta\Desktop\JavaTaskFlow\server\JavaTaskFlow\src\test\resources
