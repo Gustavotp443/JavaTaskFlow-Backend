@@ -22,6 +22,8 @@ import com.JavaTaskFlow.DTO.UserDTO;
 import com.JavaTaskFlow.models.User;
 import com.JavaTaskFlow.services.UserService;
 
+import jakarta.validation.Valid;
+
 @RestController
 @RequestMapping(value="/users")
 public class UserController {
@@ -46,7 +48,7 @@ public class UserController {
 	}
 	
 	@PostMapping()
-	public ResponseEntity<Void> insert(@RequestBody UserDTO objDto){
+	public ResponseEntity<Void> insert(@Valid @RequestBody UserDTO objDto){
 		User obj = objDto.fromDTO(objDto);
 		String encodedPassword = passwordEncoder.encode(obj.getPassword());
 		obj.setPassword(encodedPassword); 
@@ -62,7 +64,7 @@ public class UserController {
 	}
 
 	@PutMapping(value="/{id}")
-	public ResponseEntity<Void> update(@RequestBody UserDTO objDto, @PathVariable String id){
+	public ResponseEntity<Void> update(@Valid @RequestBody UserDTO objDto, @PathVariable String id){
 		User obj = objDto.fromDTO(objDto);
 		obj.setId(id);
 		obj = service.update(obj);

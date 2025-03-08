@@ -1,0 +1,38 @@
+package com.JavaTaskFlow.controllers.exception;
+
+import java.time.Instant;
+import java.util.List;
+import java.util.stream.Collectors;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.validation.FieldError;
+import org.springframework.web.bind.MethodArgumentNotValidException;
+import org.springframework.web.bind.annotation.ControllerAdvice;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.context.request.ServletWebRequest;
+import org.springframework.web.context.request.WebRequest;
+
+@ControllerAdvice
+public class ValidationExceptionHandler {
+
+    @ExceptionHandler(MethodArgumentNotValidException.class)
+    public ResponseEntity<StandardError> handleValidationExceptions(MethodArgumentNotValidException ex, WebRequest request) {
+        HttpStatus status = HttpStatus.BAD_REQUEST;
+        String error = "Validation Error";
+
+        List<FieldError> fieldErrors = ex.getBindingResult().getFieldErrors();
+        String message = fieldErrors.stream()
+                .map(fieldError -> fieldError.getField() + ": " + fieldError.getDefaultMessage())
+                .collect(Collectors.joining(", "));
+
+        StandardError standardError = new StandardError(
+                Instant.now().toEpochMilli(),
+                status.value(),
+                error,
+                message,
+                ((ServletWebRequest) request).getRequest().getRequestURI().toString());
+
+        return ResponseEntity.status(status).body(standardError);
+    }
+}
