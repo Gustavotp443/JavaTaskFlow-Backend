@@ -1,5 +1,6 @@
 package com.JavaTaskFlow.services;
 
+import java.time.Instant;
 import java.util.List;
 import java.util.Optional;
 
@@ -32,5 +33,27 @@ public class UserService {
 	public void delete(String id) {
 		findById(id);
 		repository.deleteById(id);
+	}
+	
+	public User update(User obj) {
+		Optional<User> newObj = repository.findById(obj.getId());
+		if(newObj.isPresent()) {
+			updateData(newObj.get(),obj);
+			return repository.save(newObj.get());
+		} else {
+			throw new ObjectNotFoundException("Objeto não encontrado");
+		}
+		
+	}
+
+	private void updateData(User newObj, User obj) {
+	    newObj.setName(obj.getName());
+	    newObj.setEmail(obj.getEmail());
+	    newObj.setPassword(obj.getPassword());
+	    newObj.setProfileImageUrl(obj.getProfileImageUrl());
+	    newObj.setAuthProvider(obj.getAuthProvider());
+	    newObj.setCompanyId(obj.getCompanyId());
+	    newObj.setRole(obj.getRole());
+	    newObj.setUpdatedAt(Instant.now());
 	}
 }
