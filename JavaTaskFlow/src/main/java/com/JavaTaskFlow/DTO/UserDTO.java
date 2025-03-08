@@ -42,7 +42,19 @@ public class UserDTO implements Serializable{
 	    this.createdAt = obj.getCreatedAt();
 	    this.updatedAt = obj.getUpdatedAt();
 	}
-
+	
+	public User fromDTO(UserDTO objDto) {
+	    return new User(
+	        objDto.getName(), 
+	        objDto.getEmail(), 
+	        objDto.getProfileImageUrl(), 
+	        objDto.getAuthProvider(),
+	        objDto.getCompanyId(),
+	        objDto.getRole(),
+	        objDto.getPassword()
+	    );
+	}
+	
 	public String getId() {
 		return id;
 	}
